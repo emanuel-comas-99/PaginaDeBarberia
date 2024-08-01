@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BARBERIA</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/styleboostrap.css">
+</head>
+
+<body>
+    <!--encabezado-->
+
+    <header>
+        <div class="container-fluid">
+            <!-- Content here -->
+            <div class="container-fluid">
+                <div class="row header-row">
+                    <div class="col-2 text-left">
+                        <img src="img/logo-de-barberia.png" alt="logo-de-barberia" class="logo">
+                    </div>
+                    <div class="col-9 text-left d-flex justify-content-start ">
+                        <nav class="menu">
+                            <ul>
+                                <li>
+                                    <a href="indexconboostrap.html">Inicio</a>
+                                </li>
+                                <li>
+                                    <a href="./html/contacto.html">Contacto</a>
+                                </li>
+                                <li>
+                                    <a href="./html/nosotros.html">Nosotros</a>
+                                </li>
+                                <li>
+                                    <a href="./html/agenda.html" class="">Agenda</a>
+                                </li>
+
+                                <div class="productos-dropdown">
+                                    <button class="btn btn-secondary dropdown-toggle" type="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Productos
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Para peinarse</a></li>
+                                        <li><a class="dropdown-item" href="#">Para afeitarse</a></li>
+                                        <li><a class="dropdown-item" href="./html/productos.html">Cuidado Facial</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </ul>
+
+
+                        </nav>
+
+
+                    </div>
+
+                </div>
+                <h2></h2>
+                <p></p>
+
+            </div>
+    </header>
+
+    <main>
+        <nav class="grid-container-02">
+            <!--enlace interno-->
+            <a href="#curso">Aprende con nosotros</a>
+        </nav>
+    </main>
+
+
+    <!--
+    000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    SLIDER-->
+   
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+
+
+            <div class="carousel-item active" data-bs-interval="3000">
+                <img src="./img/slider2-img.jpg" class="d-block w-100" alt="slide2-img">
+            </div>
+
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="./img/slider3-img.JPG" class="d-block w-100" alt="slide3-img">
+            </div>
+
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="./img/slider4-img.jpg" class="d-block w-100" alt="slide4-img">
+            </div>
+        </div>
+    </div>
+    <!--
+    000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    INTRO-->
+    <section class="w-50 mx-auto text-center pt-5 id"intro>
+        <h1 class="p-3 fs-2 border-top border-3">hola 
+            <span class="text-primary"> esto es</span>
+        </h1>
+            <p class="p-3 fs-4">un texto</p>
+
+    </section>
+    <!--
+    000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    SERVICIOS-->
+    <section class="container-fluid">
+        <div class="row w-75 mx-auto servicio-fila">
+            <div class="col-lg-6- col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+                <img src="" alt="img-servicios">
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1">SERVICIOS</h3>
+                    <p class="px-4"> parrafo de servicio</p>
+                </div>
+            
+
+            </div>
+        </div>
+    </section>
+
+    <section class="container-fluid">
+        <div class="row w-75 mx-auto servicio-fila">
+            <div class="col-lg-6- col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+                <img src="" alt="img-servicios">
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1">SERVICIOS2</h3>
+                    <p class="px-4"> parrafo de servicio2</p>
+                </div>
+            
+
+            </div>
+        </div>
+    </section>
+
+    <section class="container-fluid">
+        <div class="row w-75 mx-auto servicio-fila">
+            <div class="col-lg-6- col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+                <img src="" alt="img-servicios">
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1">SERVICIOS3</h3>
+                    <p class="px-4"> parrafo de servicio3</p>
+                </div>
+            
+
+            </div>
+        </div>
+    </section>
+    
+    <!--
+    000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    CURSOS (CONECTAR con #curso)-->
+
+  
+
+
+</body>
+
+</html>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>

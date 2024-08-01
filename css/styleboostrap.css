@@ -1,0 +1,100 @@
+
+body{
+    
+    margin-top: 3px;
+    background-color: rgb(203, 190, 168);
+    line-height: inherit;}
+
+.logo {
+
+    width: 100px;
+    border-radius: 100%;
+    }
+
+nav .menu{
+    display: flex;
+    flex-direction: row;
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+    }
+
+li {
+    margin: 5px;
+}
+
+.header-row {
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    color: rgb(23, 100, 74);
+}
+.dropdown-menu{
+    background-color: rgb(203, 190, 168);
+}
+.dropdown-menu a{
+    color: black;
+}
+.menu ul {
+    text-align: center;
+}
+
+.grid-container-02{
+    text-align: center;
+    text-decoration: none;
+    margin: 20px;
+}
+.row-header-row{
+    display: flex;
+    flex-wrap: wrap
+}
+
+div{
+    display:flex;
+    unicode-bidi: isolate;
+}
+/*
+    000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    CARROUSEL IMAGENES */
+.carrousel-inner{
+    max height 39rem; 
+}
+/*
+    000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    INTRO */
+
+
+
+    /*
+    000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    MEDIA QUARIES */
+    @media(max-width:768px){
+        #intro{
+            width: 90% !important;
+        }
+        .servicio-fila{ 
+        width:100% !important;
+        text-align: center;
+        }   
+        #menu .row-header-row{
+            flex-direction: column;
+        }}
+@media (max-width: 576px) {
+    .icono-wrap{
+        flex-wrap: wrap;
+        justify-content: center !important;
+        
+    }
+    #menu .row-header-row{
+        flex-direction: column;
+    }
+}
+
