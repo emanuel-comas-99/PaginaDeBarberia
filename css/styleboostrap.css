@@ -7,9 +7,9 @@ body{
 
 .logo {
 
-    width: 100px;
+    width: 100px !important;
     border-radius: 100%;
-    }
+     }
 
 nav .menu{
     display: flex;
@@ -65,7 +65,7 @@ div{
     000000000000000000000000000000000000000000000000000000000000000000000000000000000000
     CARROUSEL IMAGENES */
 .carrousel-inner{
-    max height 39rem; 
+    max-height: 39rem; 
 }
 /*
     000000000000000000000000000000000000000000000000000000000000000000000000000000000000
